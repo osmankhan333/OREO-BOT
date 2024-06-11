@@ -3,25 +3,25 @@
   "description": "WhatsApp Bot Base using Baileys. Written in javascript",
   "keywords": [
     "whatsapp bot",
-    "ShizoBot",
+    "malik",
     "WaBot",
     "oreo-bot",
     "Termux-WaBot",
     "WaBot-Base"
   ],
 "env": {
-    "DATABASE_URL": {
+    "DATABASE_URL": {postgres://koyeb-adm:EYCI3HL4gmiw@ep-cold-snowflake-a21yfrg5.eu-central-1.pg.koyeb.app/koyebdb
       "description": "your mongodb database url",
       "required": false,
       "value": ""
       },
     "SESSION_ID": {
-      "description": "your session id",
+      "description": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK0kwNjhjTnJFYlRQVkNjaWNaT2FtNGVTT3IzTFYzVU9GVTdqd1pqdmhVTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOGdCTkZSbGE0T0haQUg5clBHRkF4Y3RKa0FJUHdIZ2Q2dCtIeG5mVURHRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNUGUyS0VtK2w1eXVPQVdHWkZSeERNdWZNVGsySTBmdTA2VVM0dW9QNW1rPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI5K3FWVUdmd3VZYUtrbXFLRDYzTFRnblRobjVsbEFrQlloNFo0UEg5T213PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IldKdVAyQ3ZkaFdCQkc3WWh5amVISk9qZWJFeEVWVExyNzJDYk5RbWdWR3M9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFLTDBEYkNxZTlQRlhQeXVhZVg5UDA3VVozb2NUU2RRV1F6dkhSRzVPMmM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkhoamo5dGRPY3hIK3NBb0Zzcy9qV0RCUTR5ZUNmQ0VuNE5PU01ob2hsbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUc0UnJSUjJaR3dLRCtQVnA2RENSTWVWUVhiMnRKQ2RGVDhldHhLRFNqND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjlyR0NKWG5jcmlRdGNIWHhEWWw4a2d3MFdSc0xEc0JDWGIzTTcvSit3UDRtclB3d2s4dDBYWDNlOWd6ZWRLcDl2VVNKYmNRSmQwSWRqU2dKbDBpWWpRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTIsImFkdlNlY3JldEtleSI6InF1UGtmazI3Rnl4SmN1SmtFZVpNMDR5cGlFNlE3eU8rVkdXeXJMa3hPdEk9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IlRBZU4wcFBVVE5XdUxXQWxJNmhjS2ciLCJwaG9uZUlkIjoiOTJiOGJiMzItNjI3Mi00MDc2LWEyOTctNmUyZDIyMjBiMGQwIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlJ3ckk0eXpxcWprV2Z6bEg4L1VWWHNIbmNZQT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJuU29TMWs0QVVhS29CQkZNNUpuZy9FVkFkUkk9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiRUMxNzEzWkUiLCJtZSI6eyJpZCI6IjkyMzQzNjA2Mjk3NToxNEBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSWV5eGFzRUVJYXRsTE1HR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiVHZFdGpCNC9qWElYQnlUWDVKU1l0K2NoSDBkWUZkL3RFbk5ndVlZdDFrYz0iLCJhY2NvdW50U2lnbmF0dXJlIjoib25WWUNJaXpJTG5GaU9XRGNhUEZxR1B1VnZpdjRnRmFlVENYTEFZVWM4U0orSkUrYVBlai9Tc3JYd0RreU1xMmtWZnZxY2NWb1dNSS84b2RGandMQnc9PSIsImRldmljZVNpZ25hdHVyZSI6IlBaaHdUbHlZVkRmMDR2ZGc4bDJkRHZKdG5GaEc5eC9QZ01La2xWT3RUZTNYM1pQWGpaWm1SN2tkTjQ1SUFyK0JSV0VhaTNqUFpWNnBQNmVrVjhrYWh3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTIzNDM2MDYyOTc1OjE0QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlU3eExZd2VQNDF5RndjazErU1VtTGZuSVI5SFdCWGY3Ukp6WUxtR0xkWkgifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MTc5MDA5NDcsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSk56In0=",
       "required": false,
       "value": ""
     },
     "PRIVATE": {
-      "description": "Set it true if you want to make the bot private, leave Blank for public",
+      "description": "private",
       "required": false,
       "value": ""
     },
@@ -36,12 +36,12 @@
       "value": ""
     },
 "OWNER_NAME": {
-      "description": "owner name of the bot or Your Name",
+      "description": "malik khan",
       "required": false,
       "value": ""
     },
 "OWNER_NUMBER": {
-      "description": "Your number or bot owner number",
+      "description": "+923436062975",
       "required": false,
       "value": ""
     },
