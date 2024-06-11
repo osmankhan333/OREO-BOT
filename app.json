@@ -10,7 +10,7 @@
     "WaBot-Base"
   ],
 "env": {
-    "DATABASE_URL": {postgres://koyeb-adm:EYCI3HL4gmiw@ep-cold-snowflake-a21yfrg5.eu-central-1.pg.koyeb.app/koyebdb
+    "DATABASE_URL": {https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
       "description": "your mongodb database url",
       "required": false,
       "value": ""
